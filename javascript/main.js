@@ -4,6 +4,8 @@ let images = document.querySelectorAll("img");
 
 let header = document.querySelector("h1");
 
+let atualizar = document.querySelector("button");
+
 
 //obtendo o número dos dados
 
@@ -24,3 +26,10 @@ if(player1 > player2){
     header.textContent = "Draw!";
 }else
     header.innerHTML = "Player 2 Wins! <img src='images/red-flag.png'> ";
+
+// atualizando a página
+function atualiza(){
+    location.reload();
+}
+atualizar.addEventListener("click",atualiza);
+    
