@@ -32,6 +32,9 @@ if(primeiraVez != 0){
     else
         header.innerHTML = "Player 2 Wins! <img src='images/red-flag.png'> ";
     }
+else{
+    atualizar.textContent = "Play!";
+}    
 // atualizando a página
 function atualiza(){
     location.reload();

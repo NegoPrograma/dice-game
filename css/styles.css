@@ -42,6 +42,7 @@ p {
 
 img {
   width: 80%;
+  display: inline;
 }
 
 h1 img{
