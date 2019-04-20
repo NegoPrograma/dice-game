@@ -16,7 +16,14 @@ body {
 
 button{
   display: block;
-  margin: 0 auto;
+  margin: 30px auto;
+  width: 50%;
+  background-color: #4ECCA3;
+  border: dashed 2px black;
+  border-radius: 10%;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bolder;
 }
 
 h1 {
